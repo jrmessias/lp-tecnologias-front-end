@@ -1,0 +1,9 @@
+// _custom-colors.scss
+$cta: #816ee1;
+
+$theme-colors: map-merge(
+                $theme-colors,
+                (
+                        "cta": $cta
+                )
+);
